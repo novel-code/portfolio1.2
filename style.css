@@ -343,13 +343,11 @@ light green: #A0FF7A*/
 }
 
 @media only screen and (max-width: 600px) {
-  /* body {
-    background-color: brown;
-  } */
-
   .about-me-des div p {
     width: auto;
     text-align: justify;
+    font-size: 16px;
+    line-height: 23px;
   }
   .about-me-des div {
     margin: 1rem;
@@ -408,8 +406,12 @@ light green: #A0FF7A*/
   }
   .heading__name {
     margin-left: 2rem;
+    margin-right: 0;
   }
-  .socials {
-    padding-right: 0;
+  .skill_text {
+    font-size: 17px;
+  }
+  .row {
+    justify-content: space-around;
   }
 }
