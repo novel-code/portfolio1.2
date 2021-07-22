@@ -341,3 +341,75 @@ light green: #A0FF7A*/
 .contact a {
   padding-right: 1rem;
 }
+
+@media only screen and (max-width: 600px) {
+  /* body {
+    background-color: brown;
+  } */
+
+  .about-me-des div p {
+    width: auto;
+    text-align: justify;
+  }
+  .about-me-des div {
+    margin: 1rem;
+  }
+  .section__description {
+    padding: 0;
+  }
+  .section__title {
+    margin-bottom: 10px;
+  }
+  .section {
+    padding: 1rem;
+  }
+
+  .features {
+    /* background-color: violet; */
+    display: flex;
+    flex-direction: column;
+    margin: 0 0;
+    gap: 0;
+  }
+  .features__feature {
+    width: auto;
+    height: auto;
+    text-align: left;
+  }
+  .features__feature p {
+    padding-left: 1rem;
+  }
+  .features__header {
+    padding-left: 1rem;
+  }
+
+  .greyline {
+    border-bottom: solid 2px grey;
+    padding-bottom: 5rem;
+  }
+  .space {
+    padding-top: 5rem;
+  }
+  .reduce_space {
+    padding-bottom: 1rem;
+  }
+  /* .code_btns {
+    padding-bottom: 0rem;
+  } */
+  .all_works {
+    margin-top: -8rem;
+    padding-bottom: 2rem;
+  }
+  .skills_header {
+    padding-left: 2rem;
+  }
+  .links {
+    padding-left: 1rem;
+  }
+  .heading__name {
+    margin-left: 2rem;
+  }
+  .socials {
+    padding-right: 0;
+  }
+}
