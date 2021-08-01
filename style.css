@@ -131,7 +131,8 @@ light green: #A0FF7A*/
   backdrop-filter: blur(5px);
 }
 
-.about-me-des div p {
+.about-me-des div h4 {
+  font-weight: 500;
   padding: 2rem;
   width: 550px;
   /* border: solid 1px blueviolet; */
@@ -354,7 +355,7 @@ light green: #A0FF7A*/
 }
 
 @media only screen and (max-width: 600px) {
-  .about-me-des div p {
+  .about-me-des div h4 {
     width: auto;
     text-align: justify;
     font-size: 16px;
