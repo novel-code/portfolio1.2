@@ -427,3 +427,85 @@ light green: #A0FF7A*/
     justify-content: space-around;
   }
 }
+
+@media (max-width: 320px) {
+  /* iphone se */
+  .header {
+    height: 130vh;
+  }
+  .socials {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 800px) {
+  /* for ipad */
+  .features {
+    /* background-color: violet; */
+    display: flex;
+    flex-direction: column;
+    margin: 0 0;
+    gap: 0;
+  }
+  .greyline {
+    border-bottom: solid 2px grey;
+    padding-bottom: 5rem;
+  }
+  .space {
+    padding-top: 5rem;
+  }
+  .all_works {
+    margin-top: -1rem;
+    padding-bottom: 2rem;
+  }
+  .features__feature {
+    width: auto;
+    height: auto;
+    text-align: left;
+  }
+
+  .features__feature p {
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+  }
+  .features__header {
+    padding-left: 1rem;
+  }
+  .header {
+    height: 85vh;
+  }
+  .section__description {
+    padding-left: 0;
+  }
+  .skills_header {
+    padding-left: 4rem;
+  }
+
+  .contact {
+    height: 35vh;
+  }
+}
+@media (max-width: 1024px) {
+  /*ipad pro*/
+  .contact {
+    height: 50vh;
+  }
+  .header {
+    height: 65vh;
+  }
+}
+
+@media (max-width: 540px) {
+  /*surface duo*/
+  .contact {
+    height: 30vh;
+  }
+}
+
+@media (max-width: 280px) {
+  /*galaxy fold*/
+  .header {
+    height: 130vh;
+  }
+}
