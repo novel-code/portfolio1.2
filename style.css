@@ -4,12 +4,6 @@
   padding: 0;
   font-family: "Merienda", cursive;
 }
-/* colors
-use more: #2BD2E0 
-blue: #75B9FA
-lightest blue: #82F5CD
-nice green: #67E081
-light green: #A0FF7A*/
 
 .top__bar {
   display: flex;
@@ -399,6 +393,17 @@ form textarea:focus {
   background-color: rgb(150, 150, 150);
 }
 
+/* SCROLL BAR*/
+body::-webkit-scrollbar {
+  width: 0.8rem;
+}
+body::-webkit-scrollbar-track {
+  background: #202020;
+}
+body::-webkit-scrollbar-thumb {
+  background: rgb(150, 150, 150);
+}
+
 @media only screen and (max-width: 600px) {
   .about-me-des div h4 {
     width: auto;
@@ -483,3 +488,35 @@ form textarea:focus {
     padding-right: 0;
   }
 }
+
+/* .sticky {
+  position: fixed;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.3)
+  );
+  backdrop-filter: blur(5px);
+  width: 100%;
+}
+
+.skeleton {
+  opacity: 0.7;
+  animation: skeleton-loading 1s linear infinite alternate;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-color: hsl(200, 20%, 70%);
+  }
+  100% {
+    background-color: hsl(200, 20%, 95%);
+  }
+} */
+
+/* colors
+use more: #2BD2E0 
+blue: #75B9FA
+lightest blue: #82F5CD
+nice green: #67E081
+light green: #A0FF7A*/
