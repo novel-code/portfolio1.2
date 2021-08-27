@@ -27,6 +27,8 @@ heroScroll.addEventListener("click", function (e) {
 document.querySelector(".nav__links").addEventListener("click", function (e) {
   e.preventDefault();
 
+  console.log(e.target.classList);
+
   // Matching strategy
   if (e.target.classList.contains("nav__link")) {
     const id = e.target.getAttribute("href");
