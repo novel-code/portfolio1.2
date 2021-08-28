@@ -404,6 +404,12 @@ body::-webkit-scrollbar-thumb {
   background: rgb(150, 150, 150);
 }
 
+/* FADE ANIMATION */
+.section--hidden {
+  opacity: 0;
+  transform: translateY(8rem);
+}
+
 @media only screen and (max-width: 600px) {
   .about-me-des div h4 {
     width: auto;

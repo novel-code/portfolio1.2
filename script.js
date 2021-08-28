@@ -44,3 +44,25 @@ document.querySelector(".nav__links").addEventListener("click", function (e) {
 //   if (window.scrollY > initialCoords.top) nav.classList.add("sticky");
 //   else nav.classList.remove("sticky");
 // });
+
+/** FADE ANIMATION */
+// Reveal sections
+// const allSections = document.querySelectorAll(".sectionFade");
+
+// const revealSections = function (entries, observer) {
+//   const [entry] = entries;
+
+//   if (!entry.isIntersecting) return;
+//   entry.target.classList.remove("section--hidden");
+//   observer.unobserve(entry.target);
+// };
+
+// const sectionObserver = new IntersectionObserver(revealSections, {
+//   root: null,
+//   threshold: 0.15,
+// });
+
+// allSections.forEach(function (section) {
+//   sectionObserver.observe(section);
+//   section.classList.add("section--hidden");
+// });
